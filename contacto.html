@@ -9,10 +9,18 @@
     <!--<link rel="shortcut icon" href="img/alexcgdesign.png" type="image/x-icon"> -->
     <link rel="stylesheet" href="css/estilos.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
+    <style>
+        .diseño {
+            border: 2px solid black;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    </style>
+
 </head>
 
 <body>
     <header>
+
         <nav style="text-align: center;">
             <a href="./index.html"> INICIO</a>
             <a href="./integracion.html">INTEGRACION ACADEMICA</a>
@@ -21,16 +29,44 @@
             <a href="./niveles.html">NIVELES</a>
             <a href="./contacto.html">CONTACTO</a>
         </nav>
-        <section class="textos-header">
-            <h1> INSTITUCION EDUCATIVA Nº88226 "DANIEL ALCIDES CARRION"</h1>
-            <img width="15%" height="55%" src="./img/escurdo.png">
-        </section>
-    </header>
-    <br>
-    <br>
-    <main>
 
-    </main>
+        <br>
+        <br>
+        <br>
+
+        <div class="diseño">
+            <h2>CONTACTANOS</h2>
+            <p>Telefono : 923349887</p>
+            <p>HORARIO DE ATENCION</p>
+            <p>Lunes a Viernes de 8:30AM-5:00PM</p>
+        </div>
+    </header>
+    <!--AQUI VA LA CAJA DE COMENTARIOS-->
+    <div class="comment-box">
+        <textarea id="commentInput" rows="4" cols="50" placeholder="Ingresa un comentario"></textarea>
+        <button id="submitComment">Enviar comentario</button>
+    </div>
+
+    <br>
+    <br>
+    <div id="social-media">
+        <h2>Síguenos</h2>
+        <a href="https://www.facebook.com" target="_blank">
+            <img src="https://c0.klipartz.com/pngpicture/213/828/gratis-png-facebook-logo-facebook-messenger-logo-icono-de-redes-sociales-icono-de-facebook.png"
+                alt="Facebook" width="30">
+        </a>
+        <a href="https://www.twitter.com" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/3938/3938028.png" alt="Twitter" width="30">
+        </a>
+        <a href="https://www.instagram.com" target="_blank">
+            <img src="https://thumbs.dreamstime.com/b/icono-de-instagram-social-popular-los-medios-en-fondo-blanco-aislado-transparente-154683470.jpg"
+                alt="Instagram" width="30">
+        </a>
+    </div>
+
+
+
+
     <footer>
         <div class="contenedor-footer">
             <div class="content-foo">
@@ -52,6 +88,8 @@
         </div>
         <h2 class="titulo-final">Copyright © 2024 Institución Educativa 88226 | Todos los derechos reservados</h2>
     </footer>
+
+    <script src="./app.js"></script>
 </body>
 
 </html>
